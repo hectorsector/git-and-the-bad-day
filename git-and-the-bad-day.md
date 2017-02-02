@@ -47,3 +47,7 @@ But before bed I decided to give it another shot. I was successful with `git fil
 I pushed my changes up to GitHub, and my push was rejected. It's because I altered commit history so I had to force push. Cynthia then told me that GitHub caches commits that may still have my credentials. So I had to contact Support and they removed the cached commits from GitHub.
 
 I could've also used BFG.
+
+This was, indeed, a terrible, horrible, no good, very bad day.
+
+My friends say that some days are like that. Even without Git! But Git did indeed stick with me through every sticky situation, and its integrity was never compromised so, hey, Git helped me navigate my terrible, horrible, no good, very bad day.
