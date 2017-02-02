@@ -45,3 +45,5 @@ Because each commit is a complete snapshot of the codebase, and I had no idea wh
 But before bed I decided to give it another shot. I was successful with `git filter-branch` I was happy with myself, but then I realized a local backup of what I cleaned up was still in my local git directory.
 
 I pushed my changes up to GitHub, and my push was rejected. It's because I altered commit history so I had to force push. Cynthia then told me that GitHub caches commits that may still have my credentials. So I had to contact Support and they removed the cached commits from GitHub.
+
+I could've also used BFG.
