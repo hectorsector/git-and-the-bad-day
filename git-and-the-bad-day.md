@@ -33,3 +33,15 @@ Once the revert was finished, I realized I should've done it in its own branch. 
 That's what it was, because that afternoon I actually tried `git reset`. My commit was made to the wrong branch, so I figured I'd create a new branch, then reset to the the previous commit, and when I switched to the new branch my revert was there!
 
 I then realized a `git cherry-pick` would've done the same thing for me.
+
+I wished I could cherry-pick myself out of this day.
+
+Later that night, I realized I uploaded my Keynote presentation binary to the repo. What a waste of space!
+
+I figured I could just revert the commit, but that just means that any previous commits would still have the file. This was a terrible, horrible, no good, very bad day.
+
+Because each commit is a complete snapshot of the codebase, and I had no idea when I committed the binary, I knew this would be a messy clean-up. But `git filter-branch` should help me get out of this mess.
+
+But before bed I decided to give it another shot. I was successful with `git filter-branch` I was happy with myself, but then I realized a local backup of what I cleaned up was still in my local git directory.
+
+I pushed my changes up to GitHub, and my push was rejected. It's because I altered commit history so I had to force push. Cynthia then told me that GitHub caches commits that may still have my credentials. So I had to contact Support and they removed the cached commits from GitHub.
