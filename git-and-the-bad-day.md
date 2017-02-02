@@ -27,3 +27,9 @@ Before lunch, I treated the conflict as any other conflict. I opened the file, a
 `git commit` didn't work
 
 I wish I could revert this day.
+
+Once the revert was finished, I realized I should've done it in its own branch. I wanted to `git reset` this terrible, horrible, no good, very bad day!
+
+That's what it was, because that afternoon I actually tried `git reset`. My commit was made to the wrong branch, so I figured I'd create a new branch, then reset to the the previous commit, and when I switched to the new branch my revert was there!
+
+I then realized a `git cherry-pick` would've done the same thing for me.
